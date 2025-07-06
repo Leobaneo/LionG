@@ -2,34 +2,42 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>Galería Premium</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GaleríaPro</title>
+  <link rel="stylesheet" href="style.css"/>
   <script defer src="script.js"></script>
 </head>
 <body>
-  <header class="site-header">
-    <h1>Galería Premium</h1>
-    <nav>
-      <a href="#">Inicio</a>
-      <a href="legal.html">Legal</a>
-    </nav>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Galería<span>Pro</span></h1>
+      <nav class="nav">
+        <a href="#">Inicio</a>
+        <a href="#galeria">Galería</a>
+        <a href="legal.html">Legal</a>
+      </nav>
+    </div>
   </header>
 
   <section class="hero">
-    <h2>Películas y Diseños Exclusivos</h2>
-    <p>Disfruta de contenido de alta calidad en un solo lugar.</p>
-  </section>
-
-  <section class="galeria" id="galeria">
-    <h3>Contenido Destacado</h3>
-    <div class="grid" id="gallery-grid">
-      <!-- Contenido dinámico desde script.js -->
+    <div class="container">
+      <h2>Tu espacio para descubrir arte visual y multimedia</h2>
+      <p>Diseños vectoriales, películas y contenido digital exclusivo.</p>
+      <a href="#galeria" class="btn">Ver Galería</a>
     </div>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Galería Premium. Todos los derechos reservados.</p>
+  <section id="galeria" class="galeria">
+    <div class="container">
+      <h3>Explora nuestros contenidos</h3>
+      <div class="grid" id="gallery-grid"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 GaleríaPro. Todos los derechos reservados.</p>
+    </div>
   </footer>
 </body>
 </html>

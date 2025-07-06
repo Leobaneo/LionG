@@ -1,13 +1,13 @@
 const contenido = [
   {
-    titulo: "La Gran Aventura",
-    descripcion: "Película 2024 · 1080p · Latino",
+    titulo: "Cine Poster HD",
+    descripcion: "Película HD · 2025",
     imagen: "assets/peli1.jpg",
     enlace: "#"
   },
   {
-    titulo: "Vector Aimari",
-    descripcion: "Diseño vectorial deportivo",
+    titulo: "Diseño Aimari Vector",
+    descripcion: "Vector profesional deportivo",
     imagen: "assets/design1.png",
     enlace: "#"
   }
@@ -22,8 +22,8 @@ contenido.forEach(item => {
     <img src="${item.imagen}" alt="${item.titulo}">
     <div class="info">
       <h4>${item.titulo}</h4>
-      <span>${item.descripcion}</span><br>
-      <button class="descargar" onclick="alert('Para descargar este contenido, contacta por WhatsApp o realiza tu pago.')">Descargar</button>
+      <p>${item.descripcion}</p>
+      <button class="descargar" onclick="alert('Para descargar este contenido, contáctanos.')">Descargar</button>
     </div>
   `;
   grid.appendChild(div);
